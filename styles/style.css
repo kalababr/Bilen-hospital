@@ -217,6 +217,25 @@
       display: none;
     }
   }
+
+  /* Scroll to top button */
+
+  ::-webkit-scrollbar {
+    width: 6px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--hospital-100); 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--hospital-300);
+    border-radius: 3px; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--gray-300); 
+  }
   
   /* Hero Section */
   .hero-section {
